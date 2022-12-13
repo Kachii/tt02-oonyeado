@@ -21,18 +21,18 @@ documentation:
   discord:      "Pseudo#5252"      # Your discord handle - make sure to include the # part as well
   title:        "Hex to Seven-Segment Converter"      # Project title
   description:  "Converts Hex Input into their Seven-Segment Display Output"      # Short description of what your project does
-  how_it_works: ""      # Longer description of how the project works
-  how_to_test:  ""      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  external_hw:  ""      # Describe any external hardware needed
+  how_it_works: "Takes a Hex Input using a 4 way DIP switch and outputs the corresponding representation on a Seven-Segment Display"      # Longer description of how the project works
+  how_to_test:  "Enter the binary for a the hex digit on the DIP switch"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  external_hw:  "None"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
+  doc_link:     "N/A"      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required) we are expecting max clock frequency to be ~6khz. Provided on input 0.
   picture:      ""      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
-    - clock
-    - reset
-    - none
-    - none
+    - DIP Switch Position 1
+    - DIP Switch Position 2
+    - DIP Switch Position 3
+    - DIP Switch Position 4
     - none
     - none
     - none
